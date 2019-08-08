@@ -1,0 +1,8 @@
+//During production "config" package looks for production.json for config variables
+//Else it looks this file (deault.json)
+
+{
+    "mongoURI" : "mongodb+srv://dbadmin:dbadmin123@cluster0-hx6nw.mongodb.net/test?retryWrites=true&w=majority",
+        "baseUrl" : "http://localhost:5000"
+
+}
